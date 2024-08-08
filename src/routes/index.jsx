@@ -18,7 +18,7 @@ const Routes = () => {
             children: [
                 {
                     path: "/",
-                    element: <div>User Home Page</div>,
+                    element: <Login />,
                 },
                 {
                     path: "/products",
